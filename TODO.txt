@@ -1,0 +1,22 @@
+Here come the tasks (for the moment, until a better way to do this is found).
+
+Basics:
+[]  Implement the variable assignation
+\   []  Equals ( "is" or = )
+\   []  Addition ( "plus" or + )
+\   []  Subtraction ( "minus" or - )
+\   []  Multiplication ( "multiplied by" or * or x )
+\   []  Division ( "divided by" or / )
+\   Example: TODO
+[]  Implement conditions ( "if-then-else"'s )
+[]  Create a simple set of webpages, designed as a tutorial
+\   []  Some pages should explain what the user can do
+\   []  Some pages should explain how a problem should be solved
+\   []  Some pages should propose problems, let the user input a solution, verify
+\   \   []  If correct, an equivalent code in an existing language should be printed sideways
+\   \   \   []  Python2
+\   \   \   []  Python3
+\   \   \   []  Java
+\   \   \   []  C/C++
+\   \   \   []  PHP
+
