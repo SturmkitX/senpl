@@ -1,14 +1,14 @@
 Here come the tasks (for the moment, until a better way to do this is found).
 
 Basics:
-[]  Implement the variable assignation
-\   []  Equals ( "is" or = )
-\   []  Addition ( "plus" or + )
-\   []  Subtraction ( "minus" or - )
-\   []  Multiplication ( "multiplied by" or * or x )
-\   []  Division ( "divided by" or / )
-\   Example: TODO
+[X]  Implement the variable assignation
+\   [X]  Equals ( "be" or = )
+\   [P]  Addition ( "plus" or "added to" or + )
+\   [P]  Subtraction ( "minus" or "subtracted with" or - )
+\   [X]  Multiplication ( "multiplied by" or * or x )
+\   [X]  Division ( "divided by" or / )
 []  Implement conditions ( "if-then-else"'s )
+\   []  Implement equality operator ( "is" or = )
 []  Create a simple set of webpages, designed as a tutorial
 \   []  Some pages should explain what the user can do
 \   []  Some pages should explain how a problem should be solved
