@@ -14,11 +14,11 @@ class AssignationManager():
         # only spaces are supported right now
         # maybe add support for whole \s
         self.__letComp = re.compile("^let ")
-        self.__eqComp = re.compile(" be ")
+        self.__eqComp = re.compile(" be | is | equals ")
         self.__mulComp = re.compile(" multiplied by | [xX] ")
         self.__divComp = re.compile(" divided by ")
-        self.__addComp = re.compile(" added to ")
-        self.__subComp = re.compile(" subtracted with ")
+        self.__addComp = re.compile(" added to | plus ")
+        self.__subComp = re.compile(" subtracted with | minus ")
 
     def decode(self, msg):
         msg = re.sub(self.__letComp, "", msg)
