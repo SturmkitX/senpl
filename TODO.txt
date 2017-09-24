@@ -3,8 +3,8 @@ Here come the tasks (for the moment, until a better way to do this is found).
 Basics:
 [X]  Implement the variable assignation
 \   [X]  Equals ( "be" or = )
-\   [P]  Addition ( "plus" or "added to" or + )
-\   [P]  Subtraction ( "minus" or "subtracted with" or - )
+\   [X]  Addition ( "plus" or "added to" or + )
+\   [X]  Subtraction ( "minus" or "subtracted with" or - )
 \   [X]  Multiplication ( "multiplied by" or * or x )
 \   [X]  Division ( "divided by" or / )
 []  Implement conditions ( "if-then-else"'s )
