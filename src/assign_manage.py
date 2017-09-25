@@ -27,7 +27,8 @@ class AssignationManager():
         msg = re.sub(self.__divComp, " / ", msg)
         msg = re.sub(self.__addComp, " + ", msg)
         msg = re.sub(self.__subComp, " - ", msg)
-
+        
+        # the function should return a tuple (result variable, evaluation)
         return msg
 
 

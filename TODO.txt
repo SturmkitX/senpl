@@ -7,6 +7,7 @@ Basics:
 \   [X]  Subtraction ( "minus" or "subtracted with" or - )
 \   [X]  Multiplication ( "multiplied by" or * or x )
 \   [X]  Division ( "divided by" or / )
+[]  Implement print functions ( "print" or "write" )
 []  Implement conditions ( "if-then-else"'s )
 \   []  Implement equality operator ( "is" or = )
 []  Create a simple set of webpages, designed as a tutorial
