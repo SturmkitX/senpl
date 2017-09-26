@@ -19,6 +19,7 @@ class AssignationManager():
         self.__divComp = re.compile(" divided by ")
         self.__addComp = re.compile(" added to | plus ")
         self.__subComp = re.compile(" subtracted with | minus ")
+        self.__retComp = re.compile("(^\w+) = (.*)")
 
     def decode(self, msg):
         msg = re.sub(self.__letComp, "", msg)
@@ -27,9 +28,12 @@ class AssignationManager():
         msg = re.sub(self.__divComp, " / ", msg)
         msg = re.sub(self.__addComp, " + ", msg)
         msg = re.sub(self.__subComp, " - ", msg)
-        
+
+        # decompose the final result into a tuple
+        found = re.search(self.__retComp, msg)
+
         # the function should return a tuple (result variable, evaluation)
-        return msg
+        return found.group(1, 2)
 
 
 if __name__ == "__main__":
